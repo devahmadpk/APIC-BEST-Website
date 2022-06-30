@@ -1,0 +1,217 @@
+
+@media only screen and (max-width: 1110px)
+{
+  .registration-bank .first{
+    width: 60%;
+  }
+  .registration-bank .second{;
+    width: 60%;
+  }
+  .registration-bank ol li{
+    font-size: 19px;
+  }
+  .registration-one ol li{
+    font-size: 19px;
+  }
+  .registration-process p{
+    font-size: 19px;
+  }
+  .registration-process ol li{
+    font-size: 19px;
+  }
+  .registration-visa p{
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 970px)
+{
+  .registration-one{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  .registration-one{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 836px)
+{
+  .registration-one{
+    margin-top: 40px;
+  }
+  .registration-bank{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  .registration-one{
+    margin-top: 50px;
+  }
+  .registration-bank{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+
+  .registration-one ol li{
+    font-size: 17px;
+  }
+  .registration-bank ol li{
+    font-size: 17px;
+  }
+.registration-process p{
+    font-size: 17px;
+  }
+  .registration-process ol li{
+    font-size: 17px;
+    width: 100%;
+  }
+  .registration-process table{
+    width: 75%;
+  }
+  .registration-visa p{
+    font-size: 17px;
+  }
+  .registration-bank .first{
+    font-size: 17px;
+    width: 85%;
+    padding: 5px;
+  }
+  .registration-bank .second{
+    font-size: 17px;
+    width: 85%;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 480px)
+{
+  .last{
+    height: auto;
+  }
+  .first{
+    height: auto;
+  }
+  .topics-guidelines{
+    height: auto;
+  }
+  .registration-bank h2{
+    font-size: 21px;
+  }
+  .registration-bank h3{
+    font-size: 18px;
+  }
+  .registration-one ol li{
+    font-size: 16px;
+  }
+  .registration-bank ol li{
+    font-size: 16px;
+  }
+  .registration-process h2{
+    font-size: 21px;
+  }
+.registration-process p{
+    font-size: 16px;
+  }
+  .registration-process ol li{
+    font-size: 16px;
+    width: 100%;
+  }
+  .registration-process table{
+    width: 75%;
+    font-size: 18px;
+  }
+  .registration-visa p{
+    font-size: 16px;
+  }
+  .registration-bank .first{
+    font-size: 16px;
+    width: 85%;
+    padding: 5px;
+  }
+  .registration-bank .second{
+    font-size: 16px;
+    width: 85%;
+    padding: 5px;
+  }
+  .registration-visa h2{
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 420px)
+{
+  .middle{
+    margin-top: 20px;
+  }
+  .first-sec .first{
+    width: 90%;
+  }
+  .last{
+    margin-top: 60px;
+  }
+  .bank{
+    margin-top: 28px;
+  }
+  .visa p{
+    width: 80%;
+    position: relative;
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 360px)
+{
+  .middle{
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 326px)
+{
+  .registration-bank h2{
+    font-size: 19px;
+    margin-top: 24px;
+  }
+  .registration-bank h3{
+    font-size: 15px;
+  }
+  .registration-bank .first .row{
+    font-size: 13px;
+  }
+  .registration-bank .second .row{
+    font-size: 13px;
+  }
+  .registration-bank ol li{
+    font-size: 14px;
+  }
+  .registration-process h2{
+    font-size: 19px;
+  }
+  .registration-process p{
+    font-size: 15px;
+  }
+  .registration-process ol li{
+    font-size: 14px;
+  }
+  .registration-process table{
+    font-size: 15px;
+  }
+  .registration-visa h2{
+    font-size: 17px;
+  }
+  .committee .first h2{
+    font-size: 21px;
+    margin-right: 30px;
+  }
+  .registration-one{
+    height: auto;
+  }
+}

@@ -1,0 +1,10 @@
+The stylesheets have been made according to their
+html counterparts. Each html page has two stylesheets.
+One stylesheet contains the basic styles that apply to
+html page. While the other stylesheet contains the 
+styles that add responsiveness to the page. This is done
+to make the stylesheets as clutterfree as possible.
+
+---------IMPORTANT---------
+While replacing images make sure that they have the same name as 
+mentioned in the html file or rename them in the html file.

@@ -1,0 +1,386 @@
+@media only screen and (max-width: 1438px)
+{
+  .top-section{
+    height: 110vh;
+  }
+  .top-section .mask-over .heading-div h1{
+    font-size: 32px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 26px;
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1236px)
+{
+  .top-section{
+    height: 110vh;
+  }
+  .committee .second .card{
+    height: 400px;
+  }
+  .committee .second .card .image{
+    height: 60%;
+  }
+  .committee .second .card .text{
+    height: 40%;
+  }
+  .committee .second .card .text h3{
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .committee .second .card .text h4{
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+  }
+  .last{
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 950px)
+{
+  .top-section .mask-over .heading-div h1{
+    font-size: 28px;
+    line-height: 48px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 23px;
+
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  nav{
+    flex-wrap: wrap;
+  }
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid black;
+  }
+  nav ul li a{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  .menu-btn{
+    display: block;
+  }
+  .committee .second .card{
+    width: 34%;
+  }
+  .last{
+    height: 68vh;
+  }
+  footer .bottom-cont p{
+  font-size: 14px;
+  }
+  footer .top-cont .one p a{
+    font-size: 14px;
+  }
+  footer .top-cont .two h2{
+    font-size: 18px;
+  }
+  footer .top-cont .two a{
+    font-size: 14px;
+  }
+  footer .top-cont .three h2{
+    font-size: 18px;
+  }
+  footer .top-cont .three a{
+    font-size: 14px;
+  }
+  footer .top-cont .four h2{
+    font-size: 18px;
+  }
+  footer .top-cont .four a{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 740px)
+{
+  .last .first{
+    width: 40%;
+  }
+  .last .second{
+    width: 50%;
+  }
+  .last .fee-str{
+    width: 100%;
+  }
+  .last .fee-str h2{
+    font-size: 26px;
+  }
+  .last .fee-str .xxx .big{
+    font-size: 17px;
+  }
+  .last .fee-str .xxx .small{
+    font-size: 13px;
+  }
+  .last .fee-str .price{
+    font-size: 15px;
+  }
+  .last .second h2{
+    font-size: 26px;
+  }
+  .last .imp-dates .info{
+    font-size: 17px;
+  }
+  .last .imp-dates .dates{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 654px)
+{
+  .top-section .mask-over .heading-div h1{
+    font-size: 26px;
+    line-height: 44px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 21px;
+
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .middle .welcome h2{
+    font-size: 40px;
+  }
+  .middle .welcome p{
+    font-size: 16px;
+    margin-right: 50px;
+  }
+  .committee .first h2{
+    font-size: 32px;
+  }
+  .committee .second .card{
+    width: 40%;
+  }
+  .last{
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 570px)
+{
+  .top-section .mask-over .heading-div h1{
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 19px;
+
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .committee .second .card{
+  width: 50%;
+  }
+  .last{
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+  }
+  .last .first{
+    width: 70%;
+  }
+  .last .second{
+    margin-top: 30px;
+    width: 70%;
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 484px)
+{
+  .top-section .mask-over .heading-div h1{
+    font-size: 21px;
+    line-height: 32px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 18px;
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .navbar img{
+    height: 50%;
+  }
+  .committee .second .card{
+  width: 60%;
+  }
+
+  footer{
+    height: 100vh;
+  }
+  footer .top-cont{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .top-cont .one{
+    width: 60%;
+  }
+  footer .top-cont .two{
+    width: 40%;
+    padding: 0px;
+  }
+  footer .top-cont .two h2{
+    font-size: 16px;
+  }
+  footer .top-cont .two a{
+    font-size: 12px;
+  }
+  footer .top-cont .three{
+    width: 50%;
+    padding: 0px;
+  }
+  footer .top-cont .three h2{
+    font-size: 16px;
+  }
+  footer .top-cont .three a{
+    font-size: 12px;
+  }
+  footer .top-cont .four{
+    width: 50%;
+    padding: 0px;
+  }
+  footer .top-cont .four h2{
+    font-size: 16px;
+  }
+  footer .top-cont .four a{
+    font-size: 12px;
+  }
+  footer .bottom-cont p{
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+  top: 90px;
+  }
+  .middle{
+    width: 90%;
+    padding: 0px;
+  }
+  .last{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .last .first{
+    width: 90%;
+  }
+  .last .second{
+    width: 90%;
+  }
+  .last .second .imp-dates{
+    height: 60%;
+  }
+}
+@media only screen and (max-width: 360px)
+{
+  .navbar #buttons{
+    display: none;
+  }
+  .navbar .icon i{
+    position: relative;
+    right: 30px;
+  }
+  .navbar #buttons ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar #buttons ul a{
+    background: black;
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0px;
+  }
+  .committee .second .card{
+    width: 70%;
+    height: 400px;
+  }
+
+  .middle .welcome h2{
+    font-size: 38px;
+  }
+  .middle .welcome p{
+    font-size: 14px;
+  }
+  .committee .first h2{
+    font-size: 24px;
+  }
+  .committee .second .card .image img{
+    height: 70%;
+    width: 56%;
+  }
+  .committee .second .card .text{
+    height: 50%;
+  }
+  .committee .second .card .text h3{
+    font-size: 20px;
+  }
+  .committee .second .card .text h4{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 330px)
+{
+  .navbar img{
+    height: 26%;
+  }
+  .top-section .mask-over .heading-div h1{
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .top-section .mask-over .heading-div h2{
+    font-size: 16px;
+  }
+  .top-section .mask-over .subheading-div h3{
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .middle .welcome h2{
+    font-size: 30px;
+  }
+  .committee .second .card{
+    width: 72%;
+    height: 340px;
+  }
+  .committee .second .card .image img{
+    width: 60%;
+  }
+  .committee .second .card .text h3{
+    font-size: 18px;
+  }
+  .committee .second .card .text h4{
+    font-size: 13px;
+  }
+  footer{
+    height: auto;
+  }
+}

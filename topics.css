@@ -1,0 +1,126 @@
+/* This stylesheet is for the  page that that contains Topics
+for APIC-BEST */
+
+/* Top section Styling */
+.topics-one{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: auto;
+}
+.topics-one h1{
+  font-size: 42px;
+}
+.topics-one h2{
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+}
+.topics-one .topic{
+  text-decoration: underline;
+  font-size: 28px;
+}
+.topics-one .date{
+  font-size: 23px;
+}
+.topics-one p a{
+  padding: 10px 70px;
+  background-color: #21325b;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* Top Section Styling */
+.topics-topics{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.topics-topics p{
+  font-size: 19px;
+  width: 80%;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.topics-topics ul{
+  font-size: 18px;
+  margin-right: 44%;
+
+}
+.topics-topics ul li{
+  line-height: 24px;
+  background-color: #91a3b0;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 2px;
+}
+.topics-topics .bott-list{
+  margin-right: 62%;
+}
+
+.topics-topics h2{
+  font-size: 26px;
+  text-decoration: underline;
+  text-align: left;
+  margin-right: 70%;
+  line-height: 60px;
+}
+.topics-topics .bottom-head{
+  margin-right: 67%;
+}
+
+.topics-guidelines{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  background-color: #e5e4e2;
+  height: 100vh;
+}
+
+.topics-guidelines h2{
+  font-size: 26px;
+  text-decoration: underline;
+  text-align: left;
+  margin-right: 62%;
+  line-height: 60px;
+}
+
+.topics-guidelines p{
+  font-size: 19px;
+  width: 80%;
+  line-height: 30px;
+}
+
+.topics-guidelines h3{
+  font-size: 26px;
+  text-decoration: underline;
+  text-align: left;
+  margin-right: 65%;
+  line-height: 60px;
+}
+
+.topics-guidelines h4{
+  font-size: 20px;
+  margin-left: 20%;
+  line-height: 30px;
+  width: 100%;
+  text-decoration: underline;
+}
+
+.topics-guidelines .submission{
+  text-decoration: underline;
+  font-style: italic;
+}

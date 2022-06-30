@@ -1,0 +1,277 @@
+*{
+  padding: 0;
+  margin: 0;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Adjusting top Navbar */
+  nav{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21325b;
+}
+
+/* Adjusting CRAFT logo in navbar */
+nav .image{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+nav img{
+  height: 100%;
+  width: auto;
+  margin: 20px;
+}
+
+/* Adjusting anchor tags inside our navbar */
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+nav ul li a:hover{
+  background-color: dodgerblue;
+  transition: 1s ease;
+}
+.menu-btn{
+  padding: 5px;
+  transform: rotate(90deg);
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+/* --------Navbar adjustment end-------- */
+
+.top{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top h1{
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.top p{
+  font-size: 18px;
+  width: 80%;
+  line-height: 40px;
+}
+.top ol{
+  margin-left: 13%;
+}
+
+.top ol li{
+  font-size: 18px;
+  line-height: 26px;
+  width: 76%;
+}
+
+.last{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last h2{
+  font-size: 38px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.last p{
+  font-size: 18px;
+  width: 80%;
+  line-height: 30px;
+}
+
+.last ol{
+  margin-left: 13%;
+}
+
+.last ol li{
+  font-size: 18px;
+  line-height: 26px;
+  width: 76%;
+}
+
+/* Footer Styling */
+/* Adjusting Footer */
+footer{
+  width: 100%;
+  padding: 10px;
+  height: 70vh;
+  background-color: #21325b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Adjusting top div of footer */
+footer .top-cont{
+  width: 80%;
+  height: 60%;
+  display: flex;
+}
+
+/* Adjusting bottom div of footer */
+footer .bottom-cont{
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting first div of footer */
+footer .top-cont .one{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+
+footer .top-cont .one p{
+  margin: 5px;
+}
+
+footer .top-cont .one p a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+footer .top-cont .one p a:hover{
+  color: white;
+}
+
+footer .top-cont .one p a, i{
+  color: rgba(245, 255, 250, 0.7);
+}
+
+footer .top-cont .one img{
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+/* Adjusting second div of footer */
+footer .top-cont .two{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+footer .top-cont .two h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .two a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .two a:hover{
+  color: white;
+}
+
+/* Adjusting third div of footer */
+footer .top-cont .three{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer .top-cont .three h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .three a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .three a:hover{
+  color: white;
+}
+
+/* Adjusting fourth div of footer */
+footer .top-cont .four{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer .top-cont .four h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .four a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .four a:hover{
+  color: white;
+}
+
+/* Styling for top container end */
+
+/* Styling for bottom container */
+footer .bottom-cont p{
+  width: 80%;
+  text-align: center;
+  color: rgba(245, 255, 250, 0.4);
+  margin-bottom: 20px;
+}
+/* Styling for bottom container end */

@@ -1,0 +1,296 @@
+
+@media only screen and (max-width: 1120px)
+{
+  .topics-guidelines{
+    height: 140vh;
+  }
+}
+@media only screen and (max-width: 1070px)
+{
+  .topics-guidelines{
+    height: 130vh;
+  }
+  .topics-topics ul{
+    margin-right: 26%;
+  }
+  .topics-topics .bott-list{
+    margin-right: 51%;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  .topics-one h1{
+    font-size: 36px;
+  }
+  .topics-one h2{
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .topics-one .topic{
+    text-decoration: underline;
+    font-size: 24px;
+  }
+  .topics-one .date{
+    font-size: 21px;
+  }
+  .topics-guidelines{
+    height: 150vh;
+  }
+  .topics-topics ul{
+    margin-right: 16%;
+  }
+  .topics-topics .bott-list{
+    margin-right: 45%;
+  }
+  .topics-topics p{
+    font-size: 17px;
+    width: 80%;
+    line-height: 26px;
+  }
+  .topics-topics ul{
+    font-size: 17px;
+  }
+  .topics-topics h2{
+    font-size: 23px;
+  }
+  .topics-guidelines h2{
+    font-size: 23px;
+  }
+  .topics-guidelines p{
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .topics-guidelines h3{
+    font-size: 24px;
+  }
+  .topics-guidelines h4{
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .topics-guidelines{
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 732px)
+{
+  .topics-one h1{
+    font-size: 36px;
+  }
+  .topics-one h2{
+    font-size: 24px;
+    line-height: 38px;
+    width: 70%;
+    text-align: center;
+  }
+  .topics-one .topic{
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  .topics-one .date{
+    font-size: 20px;
+  }
+  .topics-topics ul{
+    margin-right: 8%;
+  }
+  .topics-topics .bott-list{
+    margin-right: 43%;
+  }
+}
+
+@media only screen and (max-width: 660px)
+{
+  .topics-one p a{
+    padding: 10px 60px;
+  }
+  .topics-topics p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 26px;
+  }
+  .topics-topics ul{
+    font-size: 16px;
+  }
+  .topics-topics h2{
+    width: 100%;
+    font-size: 19px;
+    position: relative;
+    left: 40%;
+  }
+  .topics-guidelines p{
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    right: 5%;
+  }
+  .topics-guidelines h2{
+    font-size: 20px;
+    position: relative;
+    left: 4%;
+  }
+  .topics-guidelines h3{
+    font-size: 20px;
+    position: relative;
+    left: 4%;
+  }
+  .topics-guidelines h4{
+    font-size: 17px;
+    line-height: 34px;
+    position: relative;
+    right: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  .topics-one p a{
+    padding: 10px 50px;
+  }
+  .topics-one h1{
+    font-size: 34px;
+  }
+  .topics-one h2{
+    font-size: 21px;
+    line-height: 38px;
+  }
+  .topics-one .topic{
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  .topics-one .date{
+    font-size: 18px;
+  }
+  .topics-topics p{
+  line-height: 22px;
+  }
+  .topics-topics ul{
+    margin-left: 19%;
+  }
+  .topics-topics ul li{
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .topics-guidelines p{
+    right: 7%;
+    font-size: 15px;
+  }
+  .topics-guidelines h2{
+    font-size: 19px;
+    left: 2%;
+  }
+  .topics-guidelines h3{
+    font-size: 19px;
+    left: 2%;
+  }
+  .topics-guidelines h4{
+    font-size: 16px;
+    line-height: 34px;
+    right: 7%;
+  }
+}
+
+@media only screen and (max-width: 480px)
+{
+  .topics-one p a{
+    padding: 8px 52px;
+  }
+  .topics-guidelines .long{
+    width: 70%;
+    right: 25%;
+  }
+  .topics-guidelines h2{
+  width: 300px;
+  left: 26%;
+  }
+  .topics-guidelines h3{
+    left: 26%;
+    width: 300px;
+  }
+  .topics-guidelines h4{
+    font-size: 16px;
+    line-height: 34px;
+    right: 9%;
+  }
+}
+
+@media only screen and (max-width: 360px)
+{
+  .topics-one p a{
+    padding: 8px 46px;
+  }
+  .topics-guidelines h4{
+    right: 11%;
+  }
+  .topics-topics ul{
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 320px)
+{
+  .topics-one{
+    height: auto;
+  }
+  .topics-one h1{
+    font-size: 26px;
+    margin-top: 90px;
+  }
+  .topics-one h2{
+    font-size: 19px;
+  }
+  .topics-one .topic{
+    font-size: 17px;
+  }
+  .topics-one .date{
+    font-size: 16px;
+  }
+  .topics-topics p{
+    font-size: 13px;
+  }
+  .topics-topics li{
+    font-size: 13px;
+  }
+  .topics-topics h2{
+    font-size: 17px;
+  }
+  .topics-guidelines h2{
+    font-size: 18px;
+  }
+  .topics-guidelines p{
+    font-size: 13px;
+  }
+  .topics-guidelines h3{
+    font-size: 16px;
+    left: 100px;
+  }
+  .topics-guidelines .long{
+    font-size: 14px;
+    left: -80px;
+  }
+  .topics-guidelines h4{
+    font-size: 14px;
+  }
+  .last .first h2{
+    margin-top: 100px;
+    font-size: 22px;
+  }
+  .last .first .fee-str .xxx .big{
+    font-size: 15px;
+  }
+  .last .first .fee-str .xxx .small{
+    font-size: 13px;
+  }
+  .last .first .fee-str .xxx .price{
+    font-size: 15px;
+  }
+  .last .second h2{
+    font-size: 22px;
+  }
+  .last .second .imp-dates .info{
+    font-size: 15px;
+  }
+  .last .second .imp-dates .dates{
+    font-size: 15px;
+  }
+}

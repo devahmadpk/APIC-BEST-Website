@@ -1,0 +1,253 @@
+@media only screen and (max-width: 900px)
+{
+  footer .bottom-cont p{
+  font-size: 14px;
+  }
+  footer .top-cont .one p a{
+    font-size: 14px;
+  }
+  footer .top-cont .two h2{
+    font-size: 18px;
+  }
+  footer .top-cont .two a{
+    font-size: 14px;
+  }
+  footer .top-cont .three h2{
+    font-size: 18px;
+  }
+  footer .top-cont .three a{
+    font-size: 14px;
+  }
+  footer .top-cont .four h2{
+    font-size: 18px;
+  }
+  footer .top-cont .four a{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 800px)
+{
+  nav{
+    flex-wrap: wrap;
+  }
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid black;
+  }
+  nav ul li a{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  .menu-btn{
+    display: block;
+  }
+  .top h1{
+    font-size: 32px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .top p{
+    font-size: 17px;
+    width: 80%;
+    line-height: 28px;
+  }
+  .top ol{
+    margin-left: 13%;
+  }
+
+  .top ol li{
+    font-size: 17px;
+    line-height: 26px;
+    width: 76%;
+  }
+  .last h2{
+    font-size: 34px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .last p{
+    font-size: 17px;
+    width: 80%;
+    line-height: 28px;
+  }
+
+  .last ol{
+    margin-left: 13%;
+  }
+
+  .last ol li{
+    font-size: 17px;
+    line-height: 26px;
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width: 530px)
+{
+
+  .top h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .top p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 24px;
+  }
+  .top ol{
+    margin-left: 13%;
+  }
+
+  .top ol li{
+    font-size: 16px;
+    line-height: 24px;
+    width: 76%;
+  }
+  .last h2{
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .last p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 24px;
+  }
+
+  .last ol{
+    margin-left: 13%;
+  }
+
+  .last ol li{
+    font-size: 16px;
+    line-height: 24px;
+    width: 76%;
+  }
+}
+@media only screen and (max-width: 480px)
+{
+  .navbar img{
+    height: 50%;
+  }
+  footer{
+    height: 100vh;
+  }
+  footer .top-cont{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .top-cont .one{
+    width: 60%;
+  }
+  footer .top-cont .two{
+    width: 40%;
+    padding: 0px;
+  }
+  footer .top-cont .two h2{
+    font-size: 16px;
+  }
+  footer .top-cont .two a{
+    font-size: 12px;
+  }
+  footer .top-cont .three{
+    width: 50%;
+    padding: 0px;
+  }
+  footer .top-cont .three h2{
+    font-size: 16px;
+  }
+  footer .top-cont .three a{
+    font-size: 12px;
+  }
+  footer .top-cont .four{
+    width: 50%;
+    padding: 0px;
+  }
+  footer .top-cont .four h2{
+    font-size: 16px;
+  }
+  footer .top-cont .four a{
+    font-size: 12px;
+  }
+  footer .bottom-cont p{
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+  top: 90px;
+}
+
+@media only screen and (max-width: 388px)
+{
+  .top h1{
+    font-size: 26px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .top p{
+    font-size: 15px;
+    width: 80%;
+    line-height: 23px;
+  }
+  .top ol{
+    margin-left: 13%;
+  }
+
+  .top ol li{
+    font-size: 15px;
+    line-height: 23px;
+    width: 76%;
+  }
+  .last h2{
+    font-size: 23px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .last p{
+    font-size: 15px;
+    width: 80%;
+    line-height: 23px;
+  }
+
+  .last ol{
+    margin-left: 13%;
+  }
+
+  .last ol li{
+    font-size: 15px;
+    line-height: 23px;
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width: 320px)
+{
+  .top h1{
+    font-size: 24px;
+    margin-right: 18px;
+  }
+  .last h2{
+    font-size: 24px;
+    margin-right: 18px;
+  }
+
+  footer{
+    height: auto;
+  }
+}

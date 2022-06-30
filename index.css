@@ -1,0 +1,487 @@
+/* This stylesheet is for the main page that appears when we
+open the website */
+
+*{
+  padding: 0;
+  margin: 0;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #f2f3f4;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Adjusting top Navbar */
+  nav{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21325b;
+  position: fixed;
+}
+
+/* Adjusting CRAFT logo in navbar */
+nav .image{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+nav img{
+  height: 100%;
+  width: auto;
+  margin: 20px;
+}
+
+/* Adjusting anchor tags inside our navbar */
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+nav ul li a:hover{
+  background-color: dodgerblue;
+  transition: 1s ease;
+}
+.menu-btn{
+  padding: 5px;
+  transform: rotate(90deg);
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+/* --------Navbar adjustment end-------- */
+
+/* Top Section Styling from here */
+.top-section{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Styling of our masking div for top-section */
+.top-section .mask-over{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 41, 88, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* First div of mask-over */
+.top-section .mask-over .heading-div{
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section .mask-over .heading-div h1{
+font-size: 44px;
+width: 100%;
+color: white;
+text-align: center;
+text-transform: uppercase;
+line-height: 68px;
+}
+
+.top-section .mask-over .heading-div h1 span{
+  text-transform: lowercase;
+}
+.top-section .mask-over .heading-div h2{
+font-size: 32px;
+color: white;
+text-transform: uppercase;
+line-height: 68px;
+
+}
+
+/* Second div of mask-overdiv */
+.top-section .mask-over .subheading-div{
+  width: 70%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section .mask-over .subheading-div h3{
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 40px;
+  text-align: center;
+}
+
+.top-section .mask-over .subheading-div h3 span{
+  text-transform: lowercase;
+}
+/* --------Top Section Styling end-------- */
+
+/* Middle Section Styling */
+.middle{
+  padding: 10px;
+  width: 100%;
+}
+
+/* Styling of welcome div */
+.middle .welcome{
+  width: 94%;
+  background-color: #e5e4e2;
+  padding: 30px;
+}
+
+.middle .welcome h2{
+  font-size: 48px;
+  color: #21325b;
+  margin: 5px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.middle .welcome p{
+  font-size: 18px;
+  text-align: left;
+  color: #484848;
+  margin: 10px;
+
+}
+
+/* --------Middle Section Styling end-------- */
+
+/* Styling of Committee section */
+.committee{
+  width: 100%;
+}
+
+/* Styling of first div of committee section */
+.committee .first{
+  width: 100%;
+  padding: 20px;
+}
+.committee .first h2{
+  font-size: 36px;
+  color: #21325b;
+  text-align: center;
+}
+
+/* Styling of second div of committee section */
+.committee .second{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Styling of cards that hold information about committee members */
+.committee .second .card{
+  width: 24%;
+  height: 500px;
+  background-color: #F0F0F0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px 8px 4px #888888;
+}
+
+/* Adjusting the div that contains committee member image */
+.committee .second .card .image{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting the div that contains text info about committee members */
+.committee .second .card .text{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+/* Adjusting committee member image */
+.committee .second .card .image img{
+  width: 70%;
+  height: 60%;
+  border-radius: 50%;
+}
+
+
+.committee .second .card .text h3{
+  font-size: 22px;
+  color: dodgerblue;
+  line-height: 40px;
+}
+
+.committee .second .card .text h4{
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 300;
+  color: #484848;
+}
+
+/* --------committee Section Styling end-------- */
+
+/* Styling of last section */
+.last{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling of first div of last section */
+.last .first{
+  width: 30%;
+}
+/* Styling of fee structure table in first div */
+.last .fee-str{
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 5px;
+}
+.last .fee-str h2{
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.last .fee-str .xxx .big{
+  font-size: 20px;
+  font-weight: bold;
+}
+.last .fee-str .xxx .small{
+  font-size: 16px;
+  color: #606060;
+}
+
+/* Styling of price column in first div */
+.last .fee-str .price{
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+/* Styling of second div of last section */
+.last .second{
+  width: 40%;
+  margin-left: 5px;
+}
+.last .second h2{
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.last .imp-dates .import{
+  color: red;
+}
+/* Styling of important dates table */
+.last .imp-dates{
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  height: 100%;
+}
+
+/* Applying font styles to all Table Data elements */
+.last .imp-dates td{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Applying seperate color to event dates */
+.last .imp-dates .dates{
+  color: dodgerblue;
+}
+
+/* --------Last Section Styling end-------- */
+
+/* Footer Styling */
+/* Adjusting Footer */
+footer{
+  width: 100%;
+  padding: 10px;
+  height: 70vh;
+  background-color: #21325b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Adjusting top div of footer */
+footer .top-cont{
+  width: 80%;
+  height: 60%;
+  display: flex;
+}
+
+/* Adjusting bottom div of footer */
+footer .bottom-cont{
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting first div of footer */
+footer .top-cont .one{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+
+footer .top-cont .one p{
+  margin: 5px;
+}
+
+footer .top-cont .one p a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+footer .top-cont .one p a:hover{
+  color: white;
+}
+
+footer .top-cont .one p a, i{
+  color: rgba(245, 255, 250, 0.7);
+}
+
+footer .top-cont .one img{
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+/* Adjusting second div of footer */
+footer .top-cont .two{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+footer .top-cont .two h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .two a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .two a:hover{
+  color: white;
+}
+
+/* Adjusting third div of footer */
+footer .top-cont .three{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer .top-cont .three h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .three a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .three a:hover{
+  color: white;
+}
+
+/* Adjusting fourth div of footer */
+footer .top-cont .four{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer .top-cont .four h2{
+  font-size: 26px;
+  color: white;
+  margin: 5px;
+}
+
+footer .top-cont .four a{
+color: rgba(245, 255, 250, 0.7);
+text-decoration: none;
+font-size: 17px;
+margin: 5px;
+}
+
+footer .top-cont .four a:hover{
+  color: white;
+}
+
+/* Styling for top container end */
+
+/* Styling for bottom container */
+footer .bottom-cont p{
+  width: 80%;
+  text-align: center;
+  color: rgba(245, 255, 250, 0.4);
+  margin-bottom: 20px;
+}
+/* Styling for bottom container end */
