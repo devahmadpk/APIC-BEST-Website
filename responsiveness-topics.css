@@ -1,15 +1,12 @@
 
-@media only screen and (max-width: 1120px)
+@media only screen and (max-width: 1400px)
 {
   .topics-guidelines{
-    height: 140vh;
+    height: auto;
   }
 }
 @media only screen and (max-width: 1070px)
 {
-  .topics-guidelines{
-    height: 130vh;
-  }
   .topics-topics ul{
     margin-right: 26%;
   }
